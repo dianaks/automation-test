@@ -1,0 +1,8 @@
+<story path="stories/consult_dictionary/LookupADefinition.story" title="Lookup a definition">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">talk better</inOrderTo>
+  <asA keyword="As a">n English student</asA>
+  <iWantTo keyword="I want to">look up word definitions</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Looking up the definition of &apos;apple&apos;">
+<step outcome="successful">Given the user is on the Wikionary home page</step>

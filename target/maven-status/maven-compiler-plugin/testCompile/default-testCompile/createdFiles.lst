@@ -1,0 +1,10 @@
+com\bliblifuture\pages\DictionaryPage.class
+com\bliblifuture\AcceptanceTestSuite.class
+com\bliblifuture\pages\BlibliSearchResultPage.class
+com\bliblifuture\pages\BlibliDetailProductPage.class
+com\bliblifuture\pages\DictionaryPage$1.class
+com\bliblifuture\steps\serenity\EndUserSteps.class
+com\bliblifuture\pages\BlibliHomePage.class
+com\bliblifuture\pages\BlibliCartPage.class
+com\bliblifuture\steps\DefinitionSteps.class
+com\bliblifuture\Behaviour\BlibliCustomerBehaviour.class

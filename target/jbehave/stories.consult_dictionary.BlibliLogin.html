@@ -1,0 +1,61 @@
+<div class="story">
+<h1>Lookup a definition</h1>
+<div class="path">stories/consult_dictionary/BlibliLogin.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> look at my account</div>
+<div class="element asA"><span class="keyword asA">As a</span> customer</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> login into blibli.com site</div>
+</div>
+<div class="scenario">
+<h2>Scenario: login to blibli</h2>
+<div class="step successful">Given the user is on the blibli home page</div>
+<div class="step failed">When the user is login to blibli <span class="keyword failed">(FAILED)</span><br/><span class="message failed">net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'diana-laptop', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown</span></div>
+<div class="step notPerformed">Then the user can see <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<pre class="failure">net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'diana-laptop', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:317)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:130)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:57)
+	at com.bliblifuture.Behaviour.BlibliCustomerBehaviour$$EnhancerByCGLIB$$a60fa44f.is_login(&lt;generated&gt;)
+	at com.bliblifuture.steps.DefinitionSteps.givenTheUserIsLoginToBlibli(DefinitionSteps.java:44)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:595)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:566)
+...</pre>
+</div>
+<div class="scenario">
+<h2>Scenario: add product to card</h2>
+<div class="step failed">Given the user is search for 'buku' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'diana-laptop', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown</span></div>
+<div class="step notPerformed">Then the user can see product 'Japan Living' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And the user go to detail product <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And the user add product to their cart <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And the user can see product in the cart 'JapanLiving' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<pre class="failure">net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'diana-laptop', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:317)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:130)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:57)
+	at com.bliblifuture.Behaviour.BlibliCustomerBehaviour$$EnhancerByCGLIB$$a60fa44f.fill_search_form(&lt;generated&gt;)
+	at com.bliblifuture.steps.DefinitionSteps.whenTheUserIsSearchFor(DefinitionSteps.java:54)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:595)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:566)
+...</pre>
+</div>
+</div>
